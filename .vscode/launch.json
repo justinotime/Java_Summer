@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mod0_Ex5",
+            "request": "launch",
+            "mainClass": "Mod0_Ex5",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
             "name": "Launch Mod0_Ass1test",
             "request": "launch",
             "mainClass": "Mod0_Ass1test",
