@@ -1,3 +1,4 @@
+package Exercises;
 import java.util.Scanner;
 // Justin Natividad CIS 35A
 // This code allows the user to input any Fahrenheit degree,

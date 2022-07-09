@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 
 public class Mod0_Ass1test {

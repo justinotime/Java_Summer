@@ -1,3 +1,4 @@
+package Exercises;
 // Justin Natividad - CIS 35 A
 // This code involves displaying the output of the string.
 // To ensure the output, it is written in a multi-line comment.

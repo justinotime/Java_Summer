@@ -1,3 +1,4 @@
+package Exercises;
 import java.util.Scanner;
 // Justin Natividad
 // This code explores for loops, in their usages.

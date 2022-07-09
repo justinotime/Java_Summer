@@ -1,3 +1,4 @@
+package Exercises;
 import java.util.Scanner;
 
 public class Mod0_Ex5 {

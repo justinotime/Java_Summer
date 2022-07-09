@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 // Justin Natividad
 // This program allows the user to

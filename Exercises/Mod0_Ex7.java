@@ -1,3 +1,4 @@
+package Exercises;
 // Justin Natividad CIS 35A
 // This code builds on the previous exercise by adding a switch statement, 
 // and a random number generator.
