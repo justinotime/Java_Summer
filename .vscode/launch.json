@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch Mod0_Ex8",
+            "request": "launch",
+            "mainClass": "Exercises.Mod0_Ex8",
+            "projectName": "Java_Summer_1e0faeef"
+        },
         {
             "type": "java",
             "name": "Launch Mod0_Ex1",
