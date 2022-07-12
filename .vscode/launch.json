@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestMod1_samQuiz",
+            "request": "launch",
+            "mainClass": "Testing.TestMod1_samQuiz",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "Testing.Test",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
             "name": "Launch TestMod0_Ex8",
             "request": "launch",
             "mainClass": "Testing.TestMod0_Ex8",
