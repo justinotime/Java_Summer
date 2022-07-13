@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mod1_Ass3",
+            "request": "launch",
+            "mainClass": "Assignments.Mod1_Ass3",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mod1_Ass2",
+            "request": "launch",
+            "mainClass": "Assignments.Mod1_Ass2",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mod1_Ex1",
+            "request": "launch",
+            "mainClass": "Exercises.Mod1_Ex1",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mod0_Ex3",
+            "request": "launch",
+            "mainClass": "Exercises.Mod0_Ex3",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
             "name": "Launch Mod0_Ex10",
             "request": "launch",
             "mainClass": "Exercises.Mod0_Ex10",
