@@ -1,7 +1,5 @@
 package Exercises;
-
 import java.util.Scanner;
-
 // Justin Natividad CIS 35A
 // This code asks for the user string, and determines if it is a palindrome or not 
 public class Mod0_Ex8 
@@ -22,3 +20,8 @@ public class Mod0_Ex8
         System.out.println(userString.equals(revUserString));
     }
 }
+
+/*
+Enter a string: kim
+false
+*/
