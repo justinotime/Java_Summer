@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mod0_Ex10",
+            "request": "launch",
+            "mainClass": "Exercises.Mod0_Ex10",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
             "name": "Launch TestMod1_samQuiz",
             "request": "launch",
             "mainClass": "Testing.TestMod1_samQuiz",
