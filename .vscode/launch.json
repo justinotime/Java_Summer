@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ComputeWork",
+            "request": "launch",
+            "mainClass": "Exercises.ComputeWork",
+            "projectName": "Java_Summer_53950e97"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestMod1_Ex2",
+            "request": "launch",
+            "mainClass": "Testing.TestMod1_Ex2",
+            "projectName": "Java_Summer_53950e97"
+        },
+        {
+            "type": "java",
             "name": "Launch Mod1_Ex2",
             "request": "launch",
             "mainClass": "Exercises.Mod1_Ex2",
