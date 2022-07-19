@@ -1,35 +1,93 @@
 package Assignments.Mod2_Ass5;
-
-//import java.sql.Date;
-
+import java.util.Date;
 public class Account
 {
     private int id;
     private double balance;
     private double annualInterestRate;
-    //private Date dateCreated = null;
+    private Date dateCreated = new Date();
 
     public Account()
     {
        
     }
 
-    public Account(int accountId, double accountBalance)
+    public Account(int id, double balance)
     {
-        accountId = id;
-        accountBalance = balance;  
+      this.id = id;
+      this.balance = balance;
     }
 
-    static void setAnnualInterestRate(double userAIR)
+    public int getId()
     {
-        userAIR = annualInterestRate;
+        return id;
     }
 
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+
+    public double getBalance()
+    {
+        return balance;
+    }
+
+    public void setBalance(double balance)
+    {
+        this.balance = balance;
+    }
+
+    public double getAIR()
+    {
+        return annualInterestRate;
+    }
+
+    public void setAIR(double userAIR)
+    {
+        this.annualInterestRate = userAIR;
+    }
+
+    public void setDate()
+    {
+
+    }
+    public String getDateCreated()
+    {
+        return dateCreated.toString();
+    }
     
+    public double getMonthlyInterestRate()
+    {
+        return annualInterestRate / 100 / 12;
+    }
 
-    public static void main(String[] args) {
+    public double getMonthlyInterest()
+    {
+        return balance * getMonthlyInterestRate();
+    }
+
+    public void withdraw(double userAmount)
+    {
+        balance -= userAmount;
+    }
+
+    public void deposit(double userAmount)
+    {
+        balance += userAmount;
+    }
+
+    public static void main(String[] args) 
+    {
         Account account = new Account(1122, 20000);
-        Account.setAnnualInterestRate(4.5);
+        account.setAIR(4.5);
+
+        account.withdraw(2500);
+        account.deposit(3000);
+
+        System.out.println("balance is " + account.getBalance());
+        System.out.println("Montly interest is " + account.getMonthlyInterest());
+        System.out.println("This account was created at " + account.getDateCreated());
     }
 }
    
