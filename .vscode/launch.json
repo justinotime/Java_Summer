@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Driver",
+            "request": "launch",
+            "mainClass": "Midterm.Driver",
+            "projectName": "Java_Summer_1e0faeef"
+        },
+        {
+            "type": "java",
             "name": "Launch Account",
             "request": "launch",
             "mainClass": "Assignments.Mod2_Ass5.Account",
